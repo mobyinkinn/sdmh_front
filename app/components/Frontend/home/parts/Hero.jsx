@@ -124,7 +124,7 @@ import { AnotherUrl } from "@/app/components/services/AnotherUrl";
 
 export default function Hero() {
   const router = useRouter();
-  const { data, isLoading } = useBannerByPage("dummy");
+  const { data, isLoading } = useBannerByPage("home");
 
   if (isLoading) return <Spinner />;
 
@@ -205,10 +205,10 @@ export default function Hero() {
               <Box
                 key={i}
                 width="100%"
-                height="70vh"
+                height="56vh"
                 sx={{
                   backgroundImage: `url(${img})`,
-                  backgroundSize: "cover",
+                  backgroundSize: "contain",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
                 }}

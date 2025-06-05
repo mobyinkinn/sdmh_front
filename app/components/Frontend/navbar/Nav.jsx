@@ -386,7 +386,7 @@ const [activeMobileItem, setActiveMobileItem] = useState(null);
           </Box> */}
           <DarkGreenButtonSmallOutline padding="5px 5px">
             <span style={{ color: "red" }}>Book Appointment</span>
-            <FaPhone style={{ width: "15px", height: "25px" }} /> 70731-11811
+            <FaPhone style={{ width: "15px", height: "25px" }} /> 70731-11911
           </DarkGreenButtonSmallOutline>
           <Box position="relative">
             <Stack direction="row">
@@ -750,14 +750,13 @@ const [activeMobileItem, setActiveMobileItem] = useState(null);
       >
         {/* LEFT SECTION */}
         <Box textAlign="center" maxWidth="33%">
-          <Typography color="error" fontWeight="600" fontSize="0.6rem">
-            Book Appointment <br /> For Teleconsultation <br />
-            Or Call On- 70731-11811
+          <Typography color="error" fontWeight="600" fontSize="0.8rem">
+            Book Appointment 70731-11911
           </Typography>
         </Box>
 
         {/* CENTER - BUTTON */}
-        <Divider orientation="vertical" flexItem sx={{ mx: 2 }} />
+        <Divider orientation="vertical" flexItem sx={{ mx: 1.1 }} />
         <Box textAlign="center">
           <Button
             variant="contained"
@@ -779,7 +778,7 @@ const [activeMobileItem, setActiveMobileItem] = useState(null);
         </Box>
 
         {/* RIGHT SECTION */}
-        <Divider orientation="vertical" flexItem sx={{ mx: 2 }} />
+        <Divider orientation="vertical" flexItem sx={{ mx: 1.1 }} />
         <Box textAlign="center" maxWidth="33%">
           <Typography color="error" fontWeight="500" fontSize="0.7rem">
             Emergency Number
